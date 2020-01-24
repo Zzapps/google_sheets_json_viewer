@@ -373,7 +373,7 @@ document.querySelector("#json").appendChild(jsonViewer.getContainer());
 google.script.run.withSuccessHandler(function(json) {
     console.log(json)
     jsonViewer.showJSON(json)
-}).doRequest()
+}).getJSON()
 
 </script>
 
